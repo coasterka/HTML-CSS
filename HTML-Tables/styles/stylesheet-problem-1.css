@@ -1,0 +1,17 @@
+table {
+	font-family: Arial;
+	font-size: 1em;
+	text-align: left;
+}
+
+table th {
+	font-size: 30px;
+	font-weight: bolder;
+	width: 355px;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+table span {
+	font-weight: bold;
+}

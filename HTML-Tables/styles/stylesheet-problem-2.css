@@ -1,0 +1,29 @@
+table, th, td {
+	border: 1px solid black;
+	font-family: Arial;
+}
+
+tbody th {
+	text-align: center;
+	font-weight: bold;
+}
+
+thead {
+	font-family: Bodoni, Arial, Times;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+tbody {
+	font-family: Times;
+	font-size: 15px;
+	font-weight: normal;
+	text-align: left;
+}
+
+tfoot {
+	font-family: Times;
+	font-size: 15px;
+	font-weight: normal;
+	text-align: right;
+}
