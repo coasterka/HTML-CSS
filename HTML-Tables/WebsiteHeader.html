@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="styles/stylesheet-problem-4.css"/>
+		<link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico">/>
+		<title>Website Header</title>
+	</head>
+	<body>
+		<div id="header">
+			<table cellpadding="5px">
+				<tr>
+					<td class="softuni-logo" rowspan="2">
+						<a href="https://softuni.bg/" target="_blank"><img src="images/softuni-full-logo.png" alt="softuni-logo"/></a>
+					</td>
+					<td> </td>
+					<td> </td>
+					
+				<td>
+					<span class="notifications">0
+						<input type="image" src="images/ringbell.png" name="notifBtn" alt="Notifications" onclick="openWd();"/>
+						<script type="text/javascript">
+							function openWd() {
+								alert("You have no new notifications!");								
+							}
+						</script>
+					</span>
+					
+				</td>
+				<td>
+					<span class="user" onclick="showMenu();">USER &#x25BE;
+						<!--double click to exit the dropdown-->
+						<ul id="user-menu" onmouseleave="hideMenu()">
+							<li><a href="https://softuni.bg/users/profile/show" target="_blank">VIEW ACCOUNT</a></li>
+							<li><a href="https://softuni.bg/account/manage" target="_blank">MANAGE</a></li>
+						</ul>
+						<script type="text/javascript">
+							function showMenu() {
+								document.getElementById("user-menu").style.display="block";
+							}
+							function hideMenu() {
+								document.getElementById("user-menu").style.display="none";
+							}
+						</script></span>
+				</td>
+				<td colspan="2">
+					<div id="search">
+						<span>Search							
+							<input type="image" src="images/zoom.png" name="search-btn" alt="Submit"/>							
+						</span>
+						<input class="search-engine" type="text" id="text" name="search" autofocus="autofocus" />
+					</div>
+				</td>
+				</tr>
+				<tr class="bottom-row">
+					<td><a target="_blank" href="https://softuni.bg/news">NEWS</a></td>
+					<td><a target="_blank" href="https://softuni.bg/about">ABOUT THE UNIVERSITY &#x25BE;</a></td>
+					<td><a target="_blank" href="https://softuni.bg/trainings/courses/list">TRAINING COURSES &#x25BE;</a></td>
+					<td><a target="_blank" href="https://softuni.bg/companies">FOR COMPANIES</a></td>
+					<td><a target="_blank" href="https://softuni.bg/forum">FORUM</a></td>
+					<td><a target="_blank" href="https://softuni.bg/contacts">CONTACTS</a></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
