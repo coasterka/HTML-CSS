@@ -5,16 +5,24 @@ table {
 	cellpadding: 15px;
 }
 
+	table tr td{
+		text-align:right;
+	}
+
 #header {
 	height: 120px;
 	width: 100%;
 	background: #234465;
 }
 
-#header img {
-	padding-left: 10px;
-}
+	#header img {
+		padding-left: 10px;
+	}
 
+#user-menu {
+	display: none;
+}
+	
 .softuni-logo {
 	text-align: left;
 	padding-left: 15px;
@@ -31,23 +39,15 @@ table {
 	text-decoration: none;
 }
 
-#user-menu {
-	display: none;
-}
-
-.user li a, .bottom-row a {
-	text-decoration: none;
-	color: white;
-}
+	.user li a, .bottom-row a {
+		text-decoration: none;
+		color: white;
+	}
 
 	.notifications input {
 		width: 16px;
 		height: 19px;
 	}
-	
-table tr td{
-	text-align:right;
-}
 
 #search {
 	margin-left: 10px;
