@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="styles/stylesheet-problem-7.css"/>
+		<link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico"/>
+		<title>Calculator</title>
+	</head>
+	<body>
+		<table>
+			<thead>				
+				<div class="display"><input type="text" readonly id="d"></div>
+			</thead>
+			<tbody class="button">
+				<tr>
+					<td>
+						<button onclick='v("1")'>1</button>
+					</td>
+					<td>
+						<button onclick='v("2")'>2</button>
+					</td>
+					<td>
+						<button onclick='v("3")'>3</button>
+					</td>
+					<td>
+						<button id="plus" onclick='v("+")'>+</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button onclick='v("4")'>4</button>
+					</td>
+					<td>
+						<button onclick='v("5")'>5</button>
+					</td>
+					<td>
+						<button onclick='v("6")'>6</button>
+					</td>
+					<td>
+						<button id="minus" onclick='v("-")'>-</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button onclick='v("7")'>7</button>
+					</td>
+					<td>
+						<button onclick='v("8")'>8</button>
+					</td>
+					<td>
+						<button onclick='v("9")'>9</button>
+					</td>
+					<td>
+						<button id="multiply" onclick='v("*")'>*</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button id="clear" onclick='c("")'>C</button>
+					</td>
+					<td>
+						<button onclick='v("0")'>0</button>
+					</td>
+					<td>
+						<button id="equals" onclick='e()'>=</button>
+					</td>
+					<td>
+						<button id="divide" onclick='v("/")'>/</button>
+					</td>
+				</tr>
+			</tbody>
+			<script>
+				function c(val) {
+					document.getElementById("d").value=val;
+				}
+				function v(val) {
+					document.getElementById("d").value+=val;
+				}
+				function e() { 
+					try { 
+						c(eval(document.getElementById("d").value));
+					} 
+					catch(e) {
+						c('Error');
+					} 
+				}  
+			</script>
+		</table>
+	</body>
+</html>
