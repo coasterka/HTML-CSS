@@ -1,0 +1,79 @@
+body, html {
+	font-family: Tahoma;
+}
+
+#background {
+	width: 400px;
+	height: 295px;
+	background: #ffc0cb;
+	position: relative;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-style: italic;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#from, #to {
+	background: #ffc0cb;
+	width: 180px;
+	height: 215px;
+	margin-top: -15px;
+	margin-left: 8px;
+	
+	position: table-cell;
+}
+
+	#from span, #to span {
+		font-size: 10px;
+		font-style: italic;
+		
+		padding-left: 5px;
+		text-transform: capitalize;
+	}
+
+.dropdown {
+	height: 23px;
+	width: 170px;
+	margin: 5px 0px 0px 5px;
+}
+
+.text-field {
+	height: 20px;
+	width: 166px;
+	margin: 5px 0px 0px 5px;	
+}
+
+#age td {
+	font-size: 10px;
+	font-style: italic;
+}
+
+#age-menus td input {
+	width: 50px;
+}
+
+.time-menus td input {
+	width: 80px;
+	margin-bottom: -10px;
+}
+
+#directs-label {
+	font-size: 10px;
+	font-style: italic;
+	margin-left: -5px;
+	vertical-align: middle;
+}
+
+#search{
+	float: right;
+	margin-right: 5px;
+	margin-top: -7px;
+}
+
+	#search input {
+		width: 170px;
+		height: 27px;
+	}

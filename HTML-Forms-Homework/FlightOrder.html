@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flight Order</title>
+		<link type="text/css" rel="stylesheet" href="styles/style02.css"/>
+		<link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico"/>
+	</head>
+	<body>
+		<div id="background">
+			
+			<form method="get">
+				
+				<h2>flight order</h2>
+				
+				<table> <!--the whole table-->
+				
+					<tr> <!--for the whole section-->
+				
+						<td> <!--for the #from div-->
+						
+							<div id="from">
+								
+									<span>from</span><br>
+						
+									<select name="from-city" class="dropdown"> <!--dropdown menu for choosing departure city-->
+										<option value="enter-a-city"
+										disabled="disabled" 
+										selected="selected">Enter a city</option>
+										<option value="dubai">Dubai</option>
+										<option value="las-vegas">Las Vegas</option>
+										<option value="london">London</option>
+										<option value="paris">Paris</option>
+										<option value="rome">Rome</option>
+										<option value="sofia">Sofia</option>
+									</select> <!--dropdown menu for choosing departure city-->
+				
+									<br><br>
+					
+									<span>departure date</span><br>
+									
+									 <!--menu for choosing departure date-->
+									 
+									<input type="date"
+									class="text-field"
+									value="2014-06-10"/>
+									
+									<br>
+									
+									 <!--menu for choosing return date-->
+									
+									<span>return date</span><br>
+									
+									<input type="date"
+									class="text-field"
+									value="2014-06-14"/>
+									
+									<br>
+									
+									<table> <!--table for choosing passengers count and age-->
+										
+										<!--labels-->
+										
+										<tr id="age">
+											<td>12+</td>
+											<td>2-12</td>
+											<td>0-2</td>
+										</tr>
+										
+										<!--table row for menus choosing passengers count and age-->
+										
+										<tr id="age-menus">
+											<td>
+												<input type="number"
+												value="0"
+												min="0"
+												max="99"/>
+											</td>
+											<td>
+												<input type="number"
+												value="0"
+												min="0"
+												max="99"/>
+											</td>
+											<td>
+												<input type="number"
+												value="0"
+												min="0"
+												max="99"/>
+											</td>
+										</tr>
+									
+									</table> <!--table for choosing passengers count and age-->
+								
+							</div> <!--#from-->
+						
+						</td> <!--for the #from div-->
+						
+						<td> <!--for the #to div-->
+						
+							<div id="to"> <!--#to-->
+								
+									<span>to</span><br>
+									
+									<select name="to-city" class="dropdown"> <!--dropdown menu for choosing arrival city-->
+										<option value="enter-a-city"
+										disabled="disabled" 
+										selected="selected">Enter a city</option>
+										<option value="dubai">Dubai</option>
+										<option value="las-vegas">Las Vegas</option>
+										<option value="london">London</option>
+										<option value="paris">Paris</option>
+										<option value="rome">Rome</option>
+										<option value="sofia">Sofia</option>
+									</select> <!--dropdown menu for choosing arrival city-->
+									
+									<br>
+						
+									<input type="checkbox" name="directs" id="directs"/> <!--chechkbox for choosing flight type - direct or not-->
+									<label for="directs" id="directs-label">Prefer directs</label>
+									
+									<br>
+									
+									<span>time interval</span><br>
+									
+									<table class="time-menus"> <!--table for choosing flight time intervals-->
+										<tr>
+											<td>
+												<input type="time" name="time-field-first" value="00:20"/>
+											</td>
+											<td>
+												<input type="time" name="time-field-second" value="05:00"/>
+											</td>
+										</tr>
+									</table> <!--table for choosing flight time intervals-->
+									
+									
+									
+									<span>time interval</span><br>
+									
+									<table class="time-menus"> <!--table for choosing flight time intervals-->
+										<tr>
+											<td>
+												<input type="time" name="time-field-third" value="16:00"/>
+											</td>
+											<td>
+												<input type="time" name="time-field-fourth" value="22:00"/>
+											</td>
+										</tr>
+									</table> <!--table for choosing flight time intervals-->
+									
+									<span id="class-span">choose class</span>
+									
+									<select name="choose-class" class="dropdown"> <!--dropdown menu for choosing flight class-->
+										<option value="first">First</option>
+										<option value="business">Business</option>
+										<option value="economy" selected="selected">Economy</option>
+										<option value="premium-econ">Premium Economy</option>
+									</select> <!--dropdown menu for choosing flight class-->
+							
+							</div> <!--#to-->
+						
+						</td> <!--for the #to div-->
+				
+					</tr> <!--for the whole section-->
+					
+					<tr>  <!--for the search button-->
+					
+						<td> </td>
+						
+						<td id="search">
+							
+							<input type="submit"
+							name="search-btn"
+							value="Search"/>
+							
+						</td>
+					
+					</tr> <!--for the search button-->
+				
+				</table> <!--the whole table-->
+			
+			</form>
+			
+		</div> <!--#background-->
+	</body>
+</html>
