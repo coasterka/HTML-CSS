@@ -1,0 +1,90 @@
+html, body {
+	width: 960px;
+	font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+	font-size: 16px;
+}
+
+
+.menu li a {
+	border: 1px solid black;
+	border-radius: 10px;
+	background: linear-gradient(
+	#25dcf2, #7994e2);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-decoration: none;
+	color: #001ced;
+	vertical-align: middle;
+}
+
+.menu li p a, .content ul li a {
+	border: none;
+	border-radius: 0px;
+	background: none;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-decoration: none;
+	color: #001ced;	
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.content ul li{
+	list-style: square;
+	clear: left;	
+}
+
+.content ul li a {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.content ul li a:hover {
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.content {
+	display: none;
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 10px;
+	background: linear-gradient(white, #a0d8ef);
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.content .bold {
+	font-weight: bold;
+}
+
+.content h3 {
+	text-decoration: underline;
+}
+
+a:hover{
+	font-size: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 40px;
+}
+
+a:hover + .content{
+	display: block;
+	margin-left: 20px;
+	position: absolute;
+}
+
+.content:hover{
+	display:block;
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin-left: 50px;
+}
