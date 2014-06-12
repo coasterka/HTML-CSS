@@ -1,0 +1,98 @@
+body{
+	background: #edeeee;
+	font-family: Calibri;
+	color: #103564;
+}
+
+h1{
+	padding-left: 15px;
+}
+
+#sliders-table{
+	margin-top: -95px;
+	background: white;
+	height: 565px;
+	width: 300px;
+	border: 1px solid #58c4b1;
+	border-radius: 10px;
+	padding-top: 0px;
+}
+
+input[type="range"]{
+	width: 180px;
+}
+
+#sliders-background td{
+	text-align: center;
+}
+
+button{
+	background: transparent;
+	border: none;
+	text-align: left;
+	font-family: Calibri;
+	color: #103564;
+	padding: 0px;
+	margin: 0px;
+}
+
+#laptops td{
+	border: 1px solid #58c4b1;
+	border-radius: 10px;
+	width: 200px;
+	background: white;
+	height: 100%;	
+}
+
+span{
+	font-size: 0.9em;
+}
+
+.bold{
+	font-weight: bolder;
+	font-size: 1em;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+button:active{
+	border: none;
+}
+
+td img {
+	width: 100%;
+}
+
+.price-label {
+	background: #103564;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 80px;
+	height: 30px;
+	padding: 10px 5px 0px 5px;
+	margin: 0px -2px -2px 0px;
+	color: white;
+	text-align: center;
+	float: right;	
+	text-shadow: 1px 1px 1px black;
+}
+
+.new-product{
+	width: 35%;	
+}
+
+.range-val-label {
+	font-weight: bold;
+	font-size: 16px;
+	float: right;
+}
+
+.min-label{
+	float: left;
+}
+
+.max-label{
+	float: right;
+}

@@ -1,0 +1,27 @@
+#wp-logo {
+	width: 280px;
+}
+
+#upload {
+	width: 100%;
+}
+
+#search {
+	width: 130px;
+	height: 25px;
+}
+
+#wpress-logo {
+	width: 30px;
+	vertical-align: middle;
+}
+
+#bottom-row td {
+	vertical-align: middle;
+}
+
+#sub-btn{
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}

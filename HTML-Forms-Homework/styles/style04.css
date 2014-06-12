@@ -1,0 +1,107 @@
+#background{
+	height: 420px;
+	width: 653px;
+	background: #3b5997;
+	position: relative;
+	font-family: 'Freight Sans','lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+#left{
+	height: 195px;
+}
+
+header{
+	text-align: center;
+	color: white;
+	
+	font-weight: bold;
+}
+
+	header img {
+		width: 220px;
+	}
+
+legend, span {
+	font-size: 13px;
+	color: white;
+	text-transform: capitalize;
+	
+}
+
+td input{
+	padding-left: 5px;
+	border-radius: 5px;
+	width: 100px;
+}
+
+#birthday {
+	width: 80%;
+}
+
+.radio {
+	font-size: 13px;
+	color: white;
+	margin-left: -47px;
+	margin-right: 15px;
+}
+
+	.radio label {
+		margin-left: -43px;
+	}
+
+select{
+	color: #b1a9bb;
+	height: 22px;
+	padding-bottom: 3px;
+	font-size: 10px;
+	width: 104px;
+}
+	
+fieldset, select{
+	border-radius: 5px;
+}
+
+option {
+	color: black;
+}
+
+	option:first-child{
+		color: #b1a9bb;
+	}
+	
+	option:first-child:active{
+		color: black;
+	}
+
+input{
+	height: 18px;
+}
+
+	input[type="submit"], input[type="reset"]{
+		height: 33px;
+		width: 99%;
+		margin: 2px 4px 0px 3px;
+		border: none;
+		font-size: 15px;
+		font-weight: bold;
+		color: #3b5997;
+	}
+	
+	input[type="number"]{
+		width: 50px;
+	}
+
+	input[type="color"]{
+		height: 20px;
+		padding: 0px;
+	}
+
+	input[placeholder]{
+		font-size: 10px;
+	}
+
+textarea{
+	width: 325px;
+	height: 40px;
+	border-radius: 5px;
+}

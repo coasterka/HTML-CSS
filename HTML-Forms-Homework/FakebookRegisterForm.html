@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fakebook Register Form</title>
+		<link type="text/css" rel="stylesheet" href="styles/style04.css" />
+		<link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico"/>
+	</head>
+	<body>
+		<div id="background">
+						
+			<header style="margin-left: 20px">
+				<img src="images/fakebook-logo.png" alt="fakebook-logo"/>
+				<span>&reg;</span>
+			</header>
+			
+			<br>
+			
+			<header>
+				<span style="font-size: 20px">Registration</span><br>
+				<span style="font-size: 12px">It is safe and it will always be!</span>
+			</header>
+			
+			<br>
+			
+			<form method="get">
+			
+				<table>
+					
+					<tr>
+						
+						<td>
+							
+							<fieldset id="left">
+								
+								<legend>Not Important Information</legend>
+								
+								<table>
+									
+									<tr>
+										
+										<td>
+											<input type="text"
+											placeholder="First Name"
+											name="first-name"/>
+										</td>
+										
+										<td>
+											<input type="text"
+											placeholder="Last Name"
+											name="last-name"/>
+										</td>
+										
+									</tr>
+									
+									<tr>
+										
+										<td>
+											<input type="email"
+											placeholder="Your Email"
+											name="user-email"/>
+										</td>
+										
+										<td>
+											<input type="tel"
+											placeholder="Phone Number"
+											name="phone-number"/>
+										</td>
+										
+									</tr>
+									
+									<tr>
+										
+										<td>
+											<input type="password"
+											placeholder="Your Password"
+											name="user-pass"/>
+										</td>
+										
+										<td>
+											<input type="url"
+											placeholder="Website"
+											name="website"/>
+										</td>
+										
+									</tr>
+									
+									<tr>
+										
+										<td colspan="2">
+											<span>Birthday</span><br>
+											<input type="datetime-local"
+											name="birthday"
+											id="birthday"/><br>
+											<!--value="2014-06-09T01:58"-->
+											<br>
+											<span class="radio"><input type="radio"
+											name="gender"
+											id="female"/>
+											<label for="female">Female</label></span>
+											
+											<span class="radio"><input type="radio"
+											name="gender"
+											id="male"/>
+											<label for="male">Male</label></span>
+												
+											<span class="radio"><input type="radio"
+											name="gender"
+											id="other"/>
+											<label for="female">Other</label></span>
+											
+										</td>
+										
+									</tr>
+									
+								</table>
+								
+							</fieldset>
+				
+						</td>
+						
+						<td>
+							
+							<fieldset>
+								
+								<legend>important information *required</legend>
+								
+								<table>
+									
+									<tr>
+										
+										<td>
+											
+											<select>
+												
+												<option value="Country"
+												disabled="disabled"
+												selected="selected"
+												id="country">Country</option>
+												<option>Austria</option>
+												<option>Barbados</option>
+												<option>Bulgaria</option>
+												<option>Denmark</option>
+												<option>Finland</option>
+												<option>France</option>
+												<option>Great Britain</option>
+												<option>Greece</option>
+												<option>Italy</option>
+												<option>Poland</option>
+												<option>Serbia</option>
+												<option>Other</option>
+												
+											</select>
+											
+											<input type="text"
+											name="village"
+											placeholder="Village"
+											required="required"/>
+											
+											<input type="text"
+											name="district"
+											placeholder="District"
+											required="required"/>
+											
+										</td>
+										
+									</tr>
+									
+									<tr>
+										
+										<td>
+											
+											<input type="text"
+											name="street"
+											placeholder="Street"
+											required="required"/>
+												
+											<input type="number"
+											name="street-num"
+											placeholder="Nr"
+											required="required"
+											min="0"/>
+											
+											<input type="number"
+											name="floor"
+											placeholder="Floor"
+											required="required"
+											min="0"/>
+											
+											<input type="number"
+											name="ap-number"
+											placeholder="Ap Nr"
+											required="required"
+											min="0"/>
+												
+										</td>
+										
+									</tr>
+									
+									<tr>
+										
+										<td>
+											
+											<span>door color</span><br>
+											
+											<input type="color"
+											name="color-picker"
+											value="#ff80c0"/>
+											
+											<input type="text"
+											name="water-meter-num"
+											placeholder="Water Meter No"
+											required="required"/>
+											
+											<select style="width: 105px">
+												
+												<option
+												disabled="disabled"
+												selected="selected">
+												Aunt Panties' Size</option>
+												<option>L</option>
+												<option>XL</option>
+												<option>XXL</option>
+												<option>XXXL</option>
+												<option>XXXXL</option>
+												<option>XXXXXL</option>
+												
+											</select>
+											
+										</td>
+										
+									</tr>
+									
+									<tr>
+										
+										<td>
+											
+											<span>more personal information</span><br>
+											
+											<textarea placeholder="Give us more information!!!"
+											required="required"></textarea>
+											
+										</td>
+										
+									</tr>
+									
+								</table>
+								
+							</fieldset>
+							
+						</td>
+					
+					</tr>
+					
+					<tr style="vertical-align: middle">
+						
+						<td>
+							
+							<input type="reset"
+							class="btn"
+							name="reset"
+							value="Clear Form"/>
+							
+						</td>
+						
+						<td>
+							
+							<input type="submit"
+							class="btn"
+							name="submit"
+							value="Register"/>
+							
+						</td>
+						
+					</tr>
+				
+				</table>
+				
+			</form>
+			
+		</div>
+	</body>
+</html>

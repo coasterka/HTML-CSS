@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Laptop choice</title>
+		<link type="text/css" rel="stylesheet" href="styles/style05.css"/>
+		<meta charset="utf-8"> 
+	</head>
+	<body>
+		<table cellpadding="0px">
+			<tr>
+				<td>
+					<h1>Лаптопи Lenovo (6)</h1>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table id="laptops" cellspacing="10px">
+						
+						<tr>
+							
+							<td>
+								<button onclick="window.open('http://www.notebook.bg/laptopi/lenovo/thinkpad-edge-s230u-n3c2fbm');">
+									<span class="bold">Lenovo Thinkpad Edge S230u</span><br>
+									<span>Intel® Core™ i5-3317U 2.60 GHz</span><br>
+		
+									<img src="images/images05/laptop2.jpg"/>
+									
+								</button>
+								
+								<div class="price-label">
+									2299.00 лв.
+								</div>
+								
+							</td>
+							
+							<td>
+								<button onclick="window.open('http://www.notebook.bg/laptopi/lenovo/ideapad-y510p-59404683');">
+									<span class="bold">Lenovo Ideapad Y510p</span><br>
+									<span>Intel® Core™ i7-4700MQ 3.40 GHz</span><br>
+									
+									<img src="images/images05/laptop1.jpg" />
+								</button>
+								<div class="price-label">
+									1889.00 лв.
+								</div>
+								
+							</td>
+							
+							<td>
+								<button onclick="window.open('http://www.notebook.bg/laptopi/lenovo/ideapad-y510-59390551');">
+								<span class="bold">Lenovo Ideapad Y510</span><br>
+								<span>Intel® Core™ i5-4200U 2.60 GHz</span><br>
+								
+								<div style="position: relative">
+									
+									<img src="images/images05/laptop1.jpg" style="position: relative"/>
+									<img class="new-product" src="images/images05/new-product.png"
+									style="position: absolute; top: 10px; left: 10px"/>
+									
+								</div>
+								</button>
+								<div class="price-label">
+									1499.00 лв.
+								</div>
+								
+							</td>
+							
+						</tr>
+						
+						<tr>
+							
+							<td>
+								<button onclick="window.open('http://www.notebook.bg/laptopi/lenovo/flex2-15-59425329');">
+									<span class="bold">Lenovo Flex2-15</span><br>
+									<span>Intel® Core™ i7-4510U 3.10 GHz</span><br>
+		
+									<img src="images/images05/laptop3.jpg"/>
+								
+								</button>
+								
+								<div class="price-label">
+									1699.00 лв.
+								</div>
+								
+							</td>
+							
+							<td>
+								<button onclick="window.open('http://www.notebook.bg/laptopi/lenovo/ideapad-m5400-59-410375');">
+									<span class="bold">Lenovo Ideapad M5400</span><br>
+									<span>Intel® Core™ i5-4200M 3.10 GHz</span><br>
+		
+									<div style="position: relative">
+										
+										<img src="images/images05/laptop4.jpg" style="position: relative"/>
+										<img class="new-product" src="images/images05/new-product.png"
+										style="position: absolute; top: 10px; left: 10px"/>
+										
+									</div>
+								
+								</button>
+								
+								<div class="price-label">
+									1129.00 лв.
+								</div>
+								
+							</td>
+							
+							<td>
+								
+								<button onclick="window.open('http://www.notebook.bg/laptopi/lenovo/ideapad-g710-59412629');">
+								
+									<span class="bold">Lenovo Ideapad G710</span><br>
+									<span>Intel® Pentium® 3550M 2.30 GHz</span><br>
+		
+									<img src="images/images05/laptop5.jpg"/>
+								
+								</button>
+								
+								<div class="price-label">
+									949.00 лв.
+								</div>
+								
+							</td>
+							
+						</tr>
+						
+					</table>
+				</td>
+				
+				<td rowspan="2">
+					
+					<div id="sliders-background">
+						
+						<table id="sliders-table" style="vertical-align: top">
+							
+							<tr>
+								<td>
+									<span class="bold" style="float: left">Цена</span>
+									<span class="range-val-label" id="range-val-price"> </span>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="range"
+									name="price" id="price"
+									min="600" max="4000"
+									value="50%" step=50
+									onchange="document.getElementById('range-val-price').innerHTML = this.value + ' лв.';"/>
+									
+									<span class="min-label">600</span>
+									<span class="max-label">4000</span>
+								</td>
+							</tr>
+							
+							<tr>
+								<td>
+									<span class="bold" style="float: left">RAM памет</span>
+									<span class="range-val-label" id="range-val-ram"> </span>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="range"
+									name="ram" id="ram"
+									min="512" max="8192"
+									value="50%" step=512
+									onchange="document.getElementById('range-val-ram').innerHTML = this.value;"/>
+									
+									<span class="min-label">512</span>
+									<span class="max-label">8192</span>
+								</td>
+							</tr>
+							
+							<tr>
+								<td>
+									<span class="bold" style="float: left">HD памет</span>
+									<span class="range-val-label" id="range-val-hdd"> </span>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="range"
+									name="hdd" id="hdd"
+									min="100" max="2000"
+									value="50%" step=100
+									style="padding-left: -5px"
+									onchange="document.getElementById('range-val-hdd').innerHTML = this.value + ' GB';"/>
+									
+									<span class="min-label">100GB</span>
+									<span class="max-label">2000GB</span>
+								</td>
+							</tr>
+							
+							<tr>
+								<td>
+									<span class="bold" style="float: left">Размер на екрана</span>
+									<span class="range-val-label" id="range-val-display"> </span>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="range"
+									name="display" id="display"
+									min="10.1" max="18.4"
+									value="50%" step=0.1
+									onchange="document.getElementById('range-val-display').innerHTML = this.value + ' инча';"/>
+									
+									<span class="min-label">10.1</span>
+									<span class="max-label">18.4</span>
+								</td>
+							</tr>
+							
+							<tr>
+								<td>
+									<span class="bold" style="float: left">Тегло</span>
+									<span class="range-val-label" id="range-val-weight"> </span>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="range"
+									name="weight" id="weight"
+									min="1.0" max="6.0"
+									value="50%" step=0.1
+									onchange="document.getElementById('range-val-weight').innerHTML = this.value + ' кг.';"/>
+									
+									<span class="min-label">1</span>
+									<span class="max-label">6</span>
+								</td>
+							</tr>
+							
+							<tr>
+								<td>
+									<span class="bold" style="float: left">Гаранция</span>
+									<span class="range-val-label" id="range-val-warranty"> </span>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="range"
+									name="warranty" id="warranty"
+									min="12" max="60"
+									value="50%" step=6
+									onchange="document.getElementById('range-val-warranty').innerHTML = this.value + ' месеца';"/>
+									
+									<span class="min-label">12</span>
+									<span class="max-label">60</span>
+								</td>
+							</tr>
+							
+						</table>
+						
+						
+						
+					</div>
+					
+				</td>
+				
+			</tr>
+		</table>
+	</body>
+</html>
