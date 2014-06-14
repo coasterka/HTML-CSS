@@ -1,0 +1,55 @@
+body {
+	background: skyblue;
+	font-size: 1.1em;
+	font-family: Calibri;
+}
+
+section {
+	position: relative;
+}
+
+header {
+	text-transform: capitalize;
+}
+
+h1 {
+	margin-left: 30%;
+}
+
+section article {
+	position: absolute;
+}
+
+meter {
+	width: 50%;
+	height: 20px;
+	background: white;
+	border: 1px solid black;
+	color: red;
+}
+
+figure {
+	margin: auto;
+}
+
+#left img {
+	width: 50%;
+}
+
+#center {
+	margin-left: 17%;
+}
+
+#right {
+	margin-left: 41.5%;
+}
+
+#audio-players {
+	vertical-align: middle;
+	background: black;
+	height: 200px;
+}
+
+audio {
+	margin-top: 14px;
+}
