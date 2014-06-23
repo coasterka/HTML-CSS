@@ -141,10 +141,12 @@ section article header {
 
 #webSafeColors {
 	background: orange;
+	color: black;
 }
 
 #RGB {
 	background: yellow;
+	color: black;
 }
 
 #RGBA {
