@@ -1,0 +1,62 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#wrapper {
+	width: 330px;
+	font-family: Tahoma, Geneva, sans-serif;
+	background: white;
+}
+
+section {
+	margin: 3px;
+	position: relative;
+}
+
+article {
+	position: absolute;
+	font-size: 12px;
+}
+
+.date {
+	color: grey;
+	font-size: 10px;
+	margin-top: 2px;
+}
+
+article header {
+	font-weight: bold;
+}
+
+section article img {
+	float: left;
+	border: 1px solid black;
+	padding: 1px;
+	margin: 3px;
+}
+
+p {
+	margin: 5px auto;
+}
+
+section article:nth-child(2) {
+	margin-top: 110px;
+}
+
+section article:last-child {
+	margin-top: 220px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: grey;
+	text-decoration: underline;	
+}
+
+
