@@ -1,0 +1,62 @@
+body, html {
+	margin: 0 auto;
+	padding: 0;
+	
+}
+
+#wrapper {
+	background: #234465;
+	width: 960px;
+	height: 120px;
+	border-radius: 200px;
+	margin-left: 5px;
+	margin-top: 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.inside {
+	background: #ff9c00;
+	border: 1px solid #234465;
+	border-radius: 200px;
+	box-sizing: border-box;
+	position: absolute;
+}
+
+.inside:nth-child(1) {
+
+	height: 2px;
+	width: 2px;
+	margin-left: 70px;
+	z-index: 60;
+}
+
+.inside:nth-child(2) {
+	height: 24px;
+	width: 24px;
+	margin-left: 72px;
+	z-index: 59;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#wrapper {
+	width: 1346px;
+	height: 570px;
+	background-color: #eee;
+	font-family: Tahoma, sans-serif;
+	padding-top: 30px;
+}
+
+#content {
+	width: 1110px;
+	height: 540px;
+	color: #234465;
+	margin: 0 auto;
+}
+
+	#content header h2 {
+		font-weight: normal;
+	}
+
+	#content section {
+		margin: 0 auto 30px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+		#content section article {
+			width: 300px;
+			padding: 25px;
+			padding-bottom: 5px;
+			background: white;
+			box-shadow: 1px black;
+			box-shadow: 0px 2px 5px #888888;
+		}
+
+			#content section article .main-header {
+				height: 90px;
+				border-bottom: 1px solid #eee;
+				margin-bottom: 20px;
+			}
+
+				#content section article .main-header header {
+					text-transform: uppercase;
+					color: #234465;
+					font-weight: bold;
+					font-size: 14px;
+					height: 40px;
+					overflow: hidden;
+				}
+				
+				#content section article .main-header header:hover {
+					color: orange;
+					cursor: pointer;
+				}
+
+					#content section article .main-header .date {
+						font-size: 14px;
+						color: black;
+						font-weight: normal;
+						float: right;
+						height: 20px;
+					}
+
+					#content section article .main-header .author {
+						font-size: 14px;
+						color: #5a5a5a;
+						font-weight: normal;
+						float: left;
+						height: 20px;
+						margin-top: 20px;
+					}
+
+				#content section article .news-content .news-image {
+					text-align: center;
+					margin-bottom: 20px;
+				}
+
+				#content section article .news-content .news-text {
+					font-size: 14px;
+					color: #5a5a5a;
+					font-weight: normal;
+					height: 40px;
+					overflow: hidden;
+					border-bottom: 1px solid #eee;
+					margin-bottom: 20px;
+					padding-bottom: 10px;
+				}
+
+				#content section article .news-content .tags {
+					font-size: 12px;
+					color: #5a5a5a;
+					font-weight: normal;
+					height: 40px;
+					overflow: hidden;
+					color: #999;
+				}
+
+					#content section article .news-content .tags strong {
+						color: #5a5a5a;
+					}
+
+	#content .pages {
+		position: absolute;
+		left: 90px;
+	}
+
+		#content .pages ul {
+			list-style-type: none;
+		}
+
+			#content .pages ul li {
+				float: left;
+				text-align: center;
+				line-height: 30px;	
+			}
+
+				#content .pages ul li div {
+					width: 30px;
+					height: 30px;
+					background: #4ca0db;
+					color: white;
+					font-size: 14px;
+					display: inline-block;
+					margin: 1px;
+					position: relative;
+				}
+
+				#content .pages ul li div:hover {
+					background: orange;
+					cursor: pointer;
+				}

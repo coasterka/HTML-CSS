@@ -1,0 +1,81 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "Animated";
+	font-style: normal;
+	src: url(../fonts/Animated.ttf);
+}
+
+#wrapper {
+	width: 900px;
+	height: 600px;
+	background-image:
+		radial-gradient(
+		circle at 170px 120px,
+		white 5%,
+		#f9f7b8 10%,
+		white 15%,
+		#0064db 80%,
+		#0064db);
+}
+
+#background {
+	content: url(../images/HawaiiBackground.png);
+	z-index: 0;
+	position: absolute;
+}
+
+.party-people {
+	z-index: 1;
+	position: absolute;
+}
+
+#vlado-g {
+	content: url(../images/VladoGHula.png);
+	margin-left: 40px;
+	margin-top: 220px;
+}
+
+#petya {
+	content: url(../images/PetiaHula.png);
+	margin-left: 180px;
+	margin-top: 180px;
+}
+
+#tedi {
+	content: url(../images/TediHula.png);
+	margin-left: 270px;
+	margin-top: 340px;
+}
+
+#nakov {
+	content: url(../images/NakovHula.png);
+	margin-left: 420px;
+	margin-top: 130px;
+}
+
+#alex {
+	content: url(../images/AlexHula.png);
+	margin-left: 510px;
+	margin-top: 175px;
+}
+
+#vlado-k {
+	content: url(../images/VladoKHula.png);
+	margin-left: 690px;
+	margin-top: 200px;
+}
+
+#message {
+	color: #fdbc21;
+	font-size: 20px;
+	margin: 15px;
+	z-index: 1;
+	float: right;
+	font-family: Animated;
+	font-size: 50px;
+}
