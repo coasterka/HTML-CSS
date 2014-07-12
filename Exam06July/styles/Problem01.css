@@ -1,0 +1,93 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+
+#wrapper {
+	margin: 0 auto;
+	background: #eee;
+	font-size: 11px;
+	width: 520px;
+}
+
+#wrapper section {
+	margin: 0 auto;
+	background: white;
+}
+
+#wrapper a {
+	text-decoration: none;
+}
+
+#wrapper section article {
+	width: 145px;
+	padding: 5px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#wrapper section article:last-child {
+	margin-right: 0px;
+}
+
+#wrapper section article header img {
+	border: 1px solid #dadee4;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#wrapper section article header a:hover {
+	cursor: pointer;
+}
+
+#wrapper section article .book-title a {
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+#wrapper section article .book-title a:hover {
+	color: #696969;
+}
+
+#wrapper section article .author {
+	text-transform: capitalize;
+	color: #696969;
+	margin-bottom: 10px;
+}
+
+#wrapper section article .price {
+	text-transform: uppercase;
+	color: #8f0509;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#wrapper section article .cart {
+	width: 115px;
+	height: 17px;
+	background-image:url('../images/shopping-cart-inactive.png');
+	background-repeat: no-repeat;
+	text-transform: uppercase;
+	color: #323232;
+	font-weight: bold;
+	padding-left: 25px;
+	font-size: 10px;
+	line-height: 17px;
+	border-radius: 5px;
+}
+
+#wrapper section article .cart:hover {
+	background-image:url('../images/shopping-cart-active.png');
+	color: black;
+	cursor: pointer;
+}
+
+
+
+
+

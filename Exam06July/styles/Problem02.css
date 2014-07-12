@@ -1,0 +1,210 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#wrapper {
+	width: 100%;
+	background: white;
+	font-family: Tahoma, sans-serif;
+}
+
+#wrapper a {
+	text-decoration: none;
+}
+
+#wrapper header {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+#wrapper footer {
+	border-top: 1px solid #e6e6e6;
+}
+
+#wrapper header {
+	width: 920px;
+	background: #eee;
+	padding: 10px 0px;
+	margin: 0 auto;
+}
+
+#wrapper header img {
+	position: relative;
+	bottom: 20px;
+}
+
+#wrapper header nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	padding-left: 0px;
+	position: relative;
+	top: 40px;
+	justify-content: space-around;
+}
+
+#wrapper header nav ul li {
+	padding-left: none;
+	text-transform: capitalize;
+	
+}
+
+#wrapper header nav ul li a {
+	color: #818181;
+	font-size: 20px;
+	position: relative;
+	bottom: 25px;
+}
+
+#wrapper header nav ul li a:hover {
+	cursor: pointer;
+}
+
+#wrapper header nav ul li:nth-child(2) a {
+	color: orange;
+}
+
+#wrapper header nav ul li:nth-child(2) a div:hover,
+#wrapper header nav ul li:nth-child(3) a div:hover,
+#wrapper header nav ul li:nth-child(4) a div:hover,
+#wrapper header nav ul li:nth-child(5) a div:hover,
+#wrapper header nav ul li:nth-child(6) a div:hover {
+	background: #ccc;
+	border-radius: 10px;
+	position: fixed;
+	padding: 15px;
+	margin: -15px;
+	margin-top: 0px;
+	margin-right: 15px;
+}
+
+#content {
+	width: 840px;
+	margin: 0 auto;
+}
+
+#content header {
+	text-transform: capitalize;
+	color: #3e3e3e;
+	font-weight: bold;
+	font-size: 24px;
+	width: inherit;
+	background: white;
+	margin: 10px 0px;
+	border: none;
+}
+
+#content section article {
+	width: 47%;
+	display: inline-table;
+}
+
+#content section article:first-child {
+	margin-right: 30px;
+}
+
+#content section article p {
+	color: #585858;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+#wrapper footer {
+	width: 920px;
+	background: #eee;
+	margin: 0 auto;
+	height: 100px;
+}
+
+#wrapper footer #copyright {
+	float: left;
+	color: #585858;
+	font-size: 14px;
+	position: relative;
+	top: 35px;
+	margin-left: 40px;
+}
+
+#wrapper footer #social {
+	float: right;
+}
+
+#wrapper footer #social ul {
+	list-style-type: none;
+	padding-left: 0px;
+	position: relative;
+	margin-right: 40px;
+}
+
+#wrapper footer #social ul li {
+	display: inline-block;
+	margin: 18px 10px 0px;
+	height: 30px;
+}
+
+#wrapper footer #social ul li a {
+	height: 30px;
+	display: block;
+}
+
+#facebook {
+	left: 0px;
+	width: 30px;
+	background: url('../images/icons.png') 0 0;
+}
+
+#google-plus {
+	left: 40px;
+	width: 30px;
+	background: url('../images/icons.png') 0 -40px;
+}
+
+#twitter {
+	left: 80px;
+	width: 30px;
+	background: url('../images/icons.png') 0 -80px;
+}
+
+#tumblr {
+	left: 120px;
+	width: 30px;
+	background: url('../images/icons.png') 0 -120px;
+}
+
+#facebook:hover {
+	left: 0px;
+	width: 30px;
+	background: url('../images/icons.png') -40px 0;
+}
+
+#google-plus:hover {
+	left: 40px;
+	width: 30px;
+	background: url('../images/icons.png') -40px -40px;
+}
+
+#twitter:hover {
+	left: 80px;
+	width: 30px;
+	background: url('../images/icons.png') -40px -80px;
+}
+
+#tumblr:hover {
+	left: 120px;
+	width: 30px;
+	background: url('../images/icons.png') -40px -120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

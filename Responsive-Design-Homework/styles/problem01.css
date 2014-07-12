@@ -1,0 +1,254 @@
+body, html, div, header, h1, h2, a, img, span, nav,
+ul, li, section, article, aside, footer {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+}
+
+body {
+	background: #6698ff;
+	position: absolute;
+}
+
+#wrapper {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
+#wrapper a {
+	text-decoration: none;
+}
+
+#wrapper header h1 a img {
+	display: inline-block;
+}
+
+#wrapper header h1 a span {
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	font-size: 3rem;
+	position: relative;
+	bottom: 18px;
+	vertical-align: middle;
+}
+
+#wrapper header {
+	border-bottom: 1px solid black;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+#wrapper header ul {
+	float: right;
+	display: block;
+	z-index: 1;
+	bottom: 28px;
+	position: relative;
+}
+
+#wrapper header nav ul li{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	background: white;
+	border: 1px solid black;
+	z-index: 2;
+}
+
+#wrapper header nav ul li a {
+	color: black;
+	font-size: 1.2rem;
+}
+
+#wrapper section {
+	display: inline-block;
+	position: relative;
+	float: left;
+	height: inherit;
+	width: 75%;
+}
+
+#wrapper section article {
+	background: #e0eafe;
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#wrapper section article div p {
+	font-size: 1.4rem;
+}
+
+#wrapper section article div p:before {
+	content: "\a0\a0\a0\a0";
+}
+
+#wrapper section header {
+	border: none;
+	margin-bottom: 0;
+}
+
+#wrapper section header h1 {
+	font-size: 2.2rem;
+}
+
+#wrapper aside.news {
+	display: inline;
+}
+
+#wrapper aside.news div{
+	background: #e0eafe;
+	border: 1px solid black;
+	padding: 10px;
+	position: relative;
+	margin-left: 4%;
+	float: left;
+	width: 20%;
+}
+
+#wrapper aside.news div ul {
+	list-style-type: none;
+}
+
+#wrapper aside.news div ul li {
+	margin-bottom: 10px;
+}
+
+#wrapper aside.news div ul li:last-child {
+	margin-bottom: 0px;
+}
+
+#wrapper aside.news div ul li a {
+	color: black;
+	font-size: 1.4rem;
+}
+
+#wrapper footer {
+	background: #e0eafe;
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 30px;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+#wrapper footer h2 {
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+}
+
+#wrapper footer h2 a {
+	font-size: 2rem;
+	text-decoration: underline;
+}
+
+@media all and (max-width: 960px) {
+	
+	body {
+		width: 100%;
+	}
+	
+	#wrapper {
+		width: inherit;
+		margin: 0;
+	}
+	
+}
+
+@media all and (max-width: 780px) {
+	
+	#wrapper section {
+		width: 100%;
+	}
+	
+	#wrapper aside.news div{
+		width: 100%;
+		margin: 0 0 20px;
+	}
+	
+	#wrapper aside.news div ul {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	#wrapper aside.news div ul li {
+		justify-content: space-between;
+		text-align: center;
+		margin-right: 30px;
+	}
+	
+	#wrapper aside.news div ul li:last-child {
+		margin-right: 0px;
+	}
+	
+	#wrapper footer {
+		margin: 0;
+	}
+	
+}
+
+@media all and (max-width: 640px) {
+	
+	#wrapper header {
+		text-align: center;
+	}
+	
+	#wrapper header h1 a span {
+		width: 80%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	
+	#wrapper header nav {
+		margin-left: 5%;
+		display: block;		
+	}
+	
+	#wrapper header nav ul {
+		width: 100%;
+
+	}
+	
+	#wrapper header nav ul li {
+		width: 95%;
+		margin: 0;
+		display: block;
+	}
+	
+	#wrapper section article header {
+		text-align: center;
+	}
+	
+	#wrapper aside.news div ul {
+		display: block;
+	}
+	
+	#wrapper aside.news div ul li {
+		margin: 0 0 20px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

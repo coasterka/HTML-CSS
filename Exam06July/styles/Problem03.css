@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url(../resources/glyphicons-halflings-regular.ttf);
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#wrapper {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 800px;
+	background: url("../images/blurred-green-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: fixed;
+}
+
+#wrapper #content {
+	position: relative;
+}
+
+#wrapper #login-form {
+	width: 350px;
+	height: 265px;
+	margin: 0 auto;
+	top: 80px;
+	position: relative;
+	border-radius: 5px;
+	background: #eef5d2;
+	box-shadow: 0px 1px 5px black;
+}
+
+#wrapper #login-form header {
+	background: #93d55c;
+	color: white;
+	text-shadow: 0px 1px 2px black;
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#login-form #input-fields .container {
+	position: relative;
+}
+
+#login-form #input-fields .container .icon#email-icon,
+#login-form #input-fields .container .icon#password-icon {
+	width: 44px;
+	height: 32px;
+	background: #eee;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: 1px solid #ccc;
+	position: absolute;
+	left: 20px;
+	z-index: 999;
+}
+
+#login-form #input-fields input[type="email"],
+#login-form #input-fields input[type="password"] {
+	left: 26px;
+	z-index: 1000;
+	position: relative;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+}
+
+#login-form #input-fields .container .icon img {
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	top: 8px;
+}
+
+#wrapper #login-form form #input-fields input {
+	width: 260px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin: 30px auto;
+	display: block;
+	padding-left: 10px;
+	color: #999;
+}
+
+#wrapper #login-form form #input-fields input:focus {
+	box-shadow: 1px 1px 10px 1px #66afe9;
+	outline: 0px;
+}
+
+#wrapper input[type="submit"] {
+	margin-top: 30px !important;
+	display: block;
+	color: white !important;
+	padding-left: 0px !important;
+	background: #5cb85c;
+	border-bottom: 2px solid #229e22 !important;
+	width: 320px !important;
+}
+
+#wrapper input[type="submit"]:hover {
+	background: #449d44;
+	border: 2px solid #229e22;
+}
+
+#wrapper input[type="submit"]:active {
+	box-shadow: none !important;
+}
+
+#wrapper #search-form {
+	width: 350px;
+	height: 34px;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 120px;
+}
+
+#wrapper #search-form input {
+	width: 250px;
+	border-radius: 5px;
+	height: 34px;
+	padding-left: 10px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+#wrapper #search-form form #submit-btn input {
+	width: 100px !important;
+	z-index: 999;
+	background: #5cb85c;
+	padding-left: 20px !important;
+	display: inline-block;
+	position: relative;
+	bottom: 64px;
+	left: 250px;
+	border: 0px !important;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+}
+
+#wrapper #search-form form #submit-btn input:hover {
+	background: #449d44;
+}
+
+#wrapper #search-form #submit-btn .icon img {
+	position: absolute;
+	left: 260px;
+	bottom: 10px;
+	z-index: 1000;
+}
